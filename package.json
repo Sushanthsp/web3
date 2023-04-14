@@ -9,14 +9,21 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "crypto": "^1.0.1",
+    "ethers": "^6.3.0",
     "expo": "~48.0.10",
     "expo-splash-screen": "~0.18.1",
     "expo-status-bar": "~1.4.4",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
     "react": "18.2.0",
-    "react-native": "0.71.6"
+    "react-native": "0.71.6",
+    "react-native-linear-gradient": "^2.6.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/preset-react": "^7.18.6"
   },
   "private": true
 }
